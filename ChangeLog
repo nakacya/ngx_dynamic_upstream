@@ -1,0 +1,41 @@
+2016-02-11 Tatsuhiko Kubo <cubicdaiya@gmail.com>
+
+	* feature: dynamic module is available from nginx-1.9.11.
+
+	* 0.1.3 released.
+
+2016-01-17 Tatsuhiko Kubo <cubicdaiya@gmail.com>
+
+	* bugfix: fixed memory corruptions. (#10) Thanks @igorastds
+
+	* optimize: reduced memory allocations. (#8) Thanks @flygoast
+
+	* supported round_robin load balancing for op_add and op_remove. (#6) Thanks @wangfakang
+
+	* 0.1.2 released.
+
+2015-06-14 Tatsuhiko Kubo <cubicdaiya@gmail.com>
+
+	* bugfix: fxied compilation error when `--with-ipv6` is enabled. Thanks Sergey A. Osokin for the patch.
+
+	* 0.1.1 released.
+
+2015-05-27 Tatsuhiko Kubo <cubicdaiya@gmail.com>
+
+	* bugfix: subdued memory leaks for zone.
+
+	* bugfix: potential buffer overrun.
+
+	* added 'server' string in response.
+
+	* added testing automation with make(#2). Thanks @walf443
+
+	* specified status code of response explicitly.
+
+	* inserted various log.
+
+	* 0.1.0 released.
+
+2015-05-20 Tatsuhiko Kubo <cubicdaiya@gmail.com>
+
+	* 0.0.1 released.
